@@ -141,7 +141,7 @@ function Content() {
   }
 
   return (
-    <>
+    <main>
       <img className="pattern-lines" src={patternLines} alt="pattern-lines" />
       <img className="pattern-circle" src={patternCircle} alt="pattern-circle" />
       <img
@@ -154,7 +154,6 @@ function Content() {
         src={patterSquigglyLineBottomDesktop}
         alt="pattern-squiggly-line-bottom-desktop"
       />
-      <main>
         <Nav />
         {!send ? (
           <Form 
@@ -175,8 +174,7 @@ function Content() {
           backForm={backForm}
           />
         )}
-      </main>
-    </>
+    </main>
   );
 }
 
