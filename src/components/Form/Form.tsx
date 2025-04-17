@@ -36,7 +36,7 @@ function Form({formData, errors, previewImage, handleChange, handleFileChange, r
 
       <form onSubmit={handleSubmit}>
         <div className="form-row">
-          <label htmlFor=""> Upload Avatar </label>
+          <label htmlFor="file"> Upload Avatar </label>
           <div className="form-row-container">
             <div className="form-container-focus">
               <div className="form-input-file">
@@ -88,7 +88,7 @@ function Form({formData, errors, previewImage, handleChange, handleFileChange, r
           </div>
         </div>
         <div className="form-row margin-bottom-first">
-          <label htmlFor=""> Full Name </label>
+          <label htmlFor="name"> Full Name </label>
           <div className="form-container-focus">
             <input
               type="text"
@@ -103,7 +103,7 @@ function Form({formData, errors, previewImage, handleChange, handleFileChange, r
           <img className="pattern-circle-2" src={patternCircle} alt="" />
         </div>
         <div className="form-row margin-bottom-first">
-          <label htmlFor=""> Email Address </label>
+          <label htmlFor="email"> Email Address </label>
           <div className="form-container-focus">
             <input
               type="text"
@@ -118,7 +118,7 @@ function Form({formData, errors, previewImage, handleChange, handleFileChange, r
           {errors.email && <p className="error">{errors.email}</p>}
         </div>
         <div className="form-row margin-bottom-first">
-          <label htmlFor=""> GitHub Username </label>
+          <label htmlFor="github"> GitHub Username </label>
           <div className="form-container-focus">
             <input
               type="text"

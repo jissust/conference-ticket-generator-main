@@ -142,17 +142,17 @@ function Content() {
 
   return (
     <>
-      <img className="pattern-lines" src={patternLines} alt="" />
-      <img className="pattern-circle" src={patternCircle} alt="" />
+      <img className="pattern-lines" src={patternLines} alt="pattern-lines" />
+      <img className="pattern-circle" src={patternCircle} alt="pattern-circle" />
       <img
         className="pattern-squiggly-line-top"
         src={patternSquigglyLineTop}
-        alt=""
+        alt="pattern-squiggly-line-top"
       />
       <img
         className="pattern-squiggly-line-bottom-desktop"
         src={patterSquigglyLineBottomDesktop}
-        alt=""
+        alt="pattern-squiggly-line-bottom-desktop"
       />
       <main>
         <Nav />
