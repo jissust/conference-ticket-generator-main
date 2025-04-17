@@ -56,6 +56,7 @@ function Form({formData, errors, previewImage, handleChange, handleFileChange, r
                 <input
                   type="file"
                   name="file"
+                  id="file"
                   ref={fileInputRef}
                   onChange={handleFileChange}
                 />
@@ -93,6 +94,7 @@ function Form({formData, errors, previewImage, handleChange, handleFileChange, r
             <input
               type="text"
               name="name"
+              id="name"
               value={formData.name}
               onChange={handleChange}
               className={errors.name ? "border-error" : ""}
@@ -108,6 +110,7 @@ function Form({formData, errors, previewImage, handleChange, handleFileChange, r
             <input
               type="text"
               name="email"
+              id="email"
               value={formData.email}
               placeholder="example@email.com"
               onChange={handleChange}
@@ -123,6 +126,7 @@ function Form({formData, errors, previewImage, handleChange, handleFileChange, r
             <input
               type="text"
               name="github"
+              id="github"
               value={formData.github}
               placeholder="@yourusername"
               onChange={handleChange}
