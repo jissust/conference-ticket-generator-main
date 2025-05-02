@@ -16,7 +16,6 @@ Automatic ticket generator by loading some data into a form.
 ## Technologies used
 
 - React 19
-    - Manejo de estado global con useContext.
 - Tailwinc CSS
 - TypeScript 
 - JavaScript (ES6+)
