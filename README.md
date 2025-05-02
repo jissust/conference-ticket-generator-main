@@ -28,7 +28,7 @@ Clone project:
 
 Go to the project 
 
-        cd FEM-3
+        cd conference-ticket-generator-main
 
 Run
         
