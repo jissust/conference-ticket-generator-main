@@ -24,7 +24,7 @@ Automatic ticket generator by loading some data into a form.
 ## Run local project
 Clone project:
         
-        git clone https://github.com/jissust/FEM-3.git
+        git clone https://github.com/jissust/conference-ticket-generator-main.git
 
 Go to the project 
 
